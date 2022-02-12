@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("../imgs/fondo.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  height: 100%;
+  width: 100%;
+  padding: 1% 2%;
+}
+
+#preview {
+  width: 100%;
+  background-image: url(../imgs/lion.svg);
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.card .card-animal {
+  padding: 1% 1% 0% 1%;
+  margin: 0% 0% 0% 1.5%;
+  width: 18%;
+  height: 95%;
+}
+.img-card{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.player{
+  width: 100%;
+}
+
+#Animales {
+  height: 100%;
+  background: #f0f0f0;
+}
+
+#Animales div div {
+  transition: all 200ms;
+}
+
+#Animales div >div:hover {
+  box-shadow: 0px 1px 5px 1px;
+}
+
+.participante {
+  max-width: 30%;
+}
+
+.modal-dialog{
+    max-width: 85% !important;
+}
